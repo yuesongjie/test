@@ -4,13 +4,13 @@ def home(driver):
     categorylists = driver.find_elements_by_id('com.lanyi.live:id/layout_category')
     sleep(5)
     try:
-        stocksignboard = categorylists[0]
+        # stocksignboard = categorylists[0]
         videoreplay = categorylists[1]
         stockschool = categorylists[2]
         stockreference = categorylists[3]
     except:
         sleep(5)
-        stocksignboard = categorylists[0]
+        # stocksignboard = categorylists[0]
         videoreplay = categorylists[1]
         stockschool = categorylists[2]
         stockreference = categorylists[3]
@@ -60,22 +60,22 @@ def home(driver):
         back()
         print u'查看股市学院成功'
     back()
-    stocksignboard.click()
-    switchout = driver.find_elements_by_class_name('android.support.v7.app.ActionBar$Tab')
-    switchout[1].click()
-    driver.find_element_by_id('com.lanyi.live:id/radio_time').click()
-    sleep(3)
-    stocklist1 = driver.find_element_by_id('com.lanyi.live:id/view_list')
-    stocklist1.click()
-    sleep(5)
-    cprice = driver.find_element_by_id('com.lanyi.live:id/text_price_current').get_attribute('name')
-    if cprice == '--':
-        print u'获取行情失败'
-    else:
-        sleep(2)
-        print u'查看股票看板成功'
-    back()
-    back()
+    # stocksignboard.click()
+    # switchout = driver.find_elements_by_class_name('android.support.v7.app.ActionBar$Tab')
+    # switchout[1].click()
+    # driver.find_element_by_id('com.lanyi.live:id/radio_time').click()
+    # sleep(3)
+    # stocklist1 = driver.find_element_by_id('com.lanyi.live:id/view_list')
+    # stocklist1.click()
+    # sleep(5)
+    # cprice = driver.find_element_by_id('com.lanyi.live:id/text_price_current').get_attribute('name')
+    # if cprice == '--':
+    #     print u'获取行情失败'
+    # else:
+    #     sleep(2)
+    #     print u'查看股票看板成功'
+    # back()
+    # back()
     sleep(2)
     videoreplay.click()
     try:

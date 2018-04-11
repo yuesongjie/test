@@ -4,16 +4,16 @@ from time import sleep
 import random
 import unittest
 #配置
-desired_caps={#'deviceName': 'iPhone 6s Plus',
-                'deviceName': 'iPhone 6s',
+desired_caps={'deviceName': 'iPhone 6s Plus',
+                # 'deviceName': 'iPhone 6s',
               'xcodeOrgId': 'N8Y36ZQX9J',
-              #'udid': '6eaec690714d9d23c386339e0c07268109d9fabc',
+              'udid': '6eaec690714d9d23c386339e0c07268109d9fabc',
               'noReset': True,
               'xcodeSigningId': 'iOS Developer',
               'platformVersion': '10.3',
               'platformName': 'iOS',
               'bundleId': 'com.lanyizhibo.live'}
-driver=webdriver.Remote('http://localhost:2333/wd/hub',desired_caps)
+driver=webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
 #个人中心
 driver.find_element_by_xpath('//XCUIElementTypeButton[@name="个人中心"]').click()
 # driver.find_element_by_xpath('//XCUIElementTypeStaticText[@name="立即登录"]').click()

@@ -15,4 +15,3 @@ def personalcenter(driver):
     driver.find_element_by_xpath('//android.widget.ImageButton[@content-desc="转到上一层级"]').click()
     driver.find_element_by_id('com.lanyi.live:id/text_attendance').click()
     driver.quit()
-    print u'未报错'
