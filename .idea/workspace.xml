@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c2979dd-019f-46a1-949f-fc9f494f6be6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/debug/iOS/lanyilive/homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/iOS/lanyilive/iOS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/iOS/lanyilive/personal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/iOS/lanyilive/qoute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/iOS/lanyilive/videolive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/Android/lanyilive/android.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/Android/lanyilive/android.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug/Android/lanyilive/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/Android/lanyilive/homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/Android/lanyilive/personal.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/Android/lanyilive/personal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/ios&amp;android/LYLiveAPP_ios_try.py" beforeDir="false" afterPath="$PROJECT_DIR$/work/ios&amp;android/LYLiveAPP_ios_try.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,70 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="homepage.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/homepage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="29" column="64" selection-start-line="12" selection-start-column="6" selection-end-line="29" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iOS.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/iOS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="e#15#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homepage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/debug/Android/lanyilive/homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2233">
-              <caret line="77" column="12" selection-start-line="62" selection-start-column="6" selection-end-line="77" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug/Android/lanyilive/android.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/personal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videolive.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/videolive.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qoute.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/qoute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#15#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="139">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -124,8 +55,8 @@
         <option value="$PROJECT_DIR$/debug/iOS/lanyilive/personal.py" />
         <option value="$PROJECT_DIR$/debug/iOS/lanyilive/videolive.py" />
         <option value="$PROJECT_DIR$/debug/iOS/lanyilive/iOS.py" />
-        <option value="$PROJECT_DIR$/debug/Android/lanyilive/homepage.py" />
         <option value="$PROJECT_DIR$/debug/iOS/lanyilive/homepage.py" />
+        <option value="$PROJECT_DIR$/debug/Android/lanyilive/homepage.py" />
       </list>
     </option>
   </component>
@@ -162,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +141,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.iOS">
+  <component name="RunManager" selected="Python.android">
     <configuration name="android" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,11 +260,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.android" />
         <item itemvalue="Python.iOS" />
         <item itemvalue="Python.qoute" />
         <item itemvalue="Python.videolive" />
         <item itemvalue="Python.homepage (1)" />
-        <item itemvalue="Python.android" />
       </list>
     </recent_temporary>
   </component>
@@ -360,16 +291,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-1920" y="-214" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14194578" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14097148" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3296146" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3292683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="-1907" y="137" width="1907" height="377" id="Terminal" order="7" weight="0.6319328" />
+      <window_info anchor="bottom" x="-1907" y="137" width="1907" height="377" id="Terminal" order="7" weight="0.63109756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/qoute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="348">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
@@ -712,18 +644,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/iOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="551">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug/Android/lanyilive/homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2233">
-          <caret line="77" column="12" selection-start-line="62" selection-start-column="6" selection-end-line="77" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -736,8 +661,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/debug/iOS/lanyilive/homepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="29" column="64" selection-start-line="12" selection-start-column="6" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="378">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug/Android/lanyilive/homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>

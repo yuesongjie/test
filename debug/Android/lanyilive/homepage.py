@@ -1,15 +1,27 @@
 #coding=utf-8
 from time import sleep
 def home(driver):
-    categorylists = driver.find_elements_by_id('com.lanyi.live:id/layout_category')
-    sleep(5)
+    sleep(2)
     try:
-        # stocksignboard = categorylists[0]
+        driver.find_element_by_id('com.lanyi.live:id/btn_close').click()
+    except:
+        print u'未发现首页弹窗'
+    try:
+        driver.find_element_by_id('com.lanyi.live:id/img_close').click()
+    except:
+        print u'未发现签到弹窗'
+    sleep(3)
+    cataarea = driver.find_element_by_id('com.lanyi.live:id/list_category')
+    categorylists = cataarea.find_elements_by_class_name('android.widget.LinearLayout')
+    try:
+        teacherboard=categorylists[0]
+        #stocksignboard = categorylists[0]
         videoreplay = categorylists[1]
         stockschool = categorylists[2]
         stockreference = categorylists[3]
     except:
         sleep(5)
+        teacherboard = categorylists[0]
         # stocksignboard = categorylists[0]
         videoreplay = categorylists[1]
         stockschool = categorylists[2]
@@ -60,6 +72,18 @@ def home(driver):
         back()
         print u'查看股市学院成功'
     back()
+    teacherboard.click()
+    allarea=driver.find_element_by_id('android:id/content')
+    innerarea=allarea.find_element_by_class_name('android.widget.LinearLayout')
+    inarea=innerarea.find_element_by_class_name('android.widget.ListView')
+    oneteacher=inarea.find_elements_by_class_name('android.widget.LinearLayout')[1]
+    oneteacher.click()
+    x = driver.get_window_size()['width']
+    y = driver.get_window_size()['height']
+    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 200, duration=sleep(5))
+    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 200, duration=sleep(5))
+    back()
+    back()
     # stocksignboard.click()
     # switchout = driver.find_elements_by_class_name('android.support.v7.app.ActionBar$Tab')
     # switchout[1].click()
@@ -96,10 +120,7 @@ def home(driver):
     else:
         print u'打开绝密内参失败'
     back()
-    x = driver.get_window_size()['width']
-    y = driver.get_window_size()['height']
-    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 200, duration=sleep(5))
-    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 200, duration=sleep(5))
+
     livetabarea1 = driver.find_element_by_id('com.lanyi.live:id/layout_tabs')
     livetabarea2 = livetabarea1.find_element_by_class_name('android.widget.HorizontalScrollView')
     livetabarea3 = livetabarea2.find_element_by_class_name('android.widget.LinearLayout')
