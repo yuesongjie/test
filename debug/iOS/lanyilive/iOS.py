@@ -13,12 +13,8 @@ desired_caps={'platformName': 'iOS',
               "automationName":"XCUITest"}
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 sleep(2)
-try:
-    home(driver)
-    qoute(driver)
-    live(driver)
-except:
-    print u'异常'
-finally:
-    driver.quit()
+home(driver)
+qoute(driver)
+live(driver)
+
 

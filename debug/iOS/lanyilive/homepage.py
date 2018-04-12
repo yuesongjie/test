@@ -7,9 +7,20 @@ def home(driver):
     try:
         driver.find_element_by_xpath('//XCUIElementTypeButton[@name="signIn deleteImage"]').click()
     except:
-        print u'没有弹窗'
+        print u'没有签到弹窗'
+    try:
+        driver.find_element_by_accessibility_id('notice close btn').click()
+    except:
+        print u'没有弹窗广告'
     finally:
         sleep(2)
+    driver.find_element_by_accessibility_id('名师专栏').click()
+    sleep(1)
+    driver.find_element_by_xpath('//XCUIElementTypeApplication[@name="览益股市"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]').click()
+    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 600, duration=sleep(3))
+    driver.swipe(int(x) / 2, int(y) / 2, int(x) / 2, int(y) / 600, duration=sleep(3))
+    driver.find_element_by_accessibility_id('backImg').click()
+    driver.find_element_by_accessibility_id('backImg').click()
     # driver.find_element_by_xpath('//XCUIElementTypeStaticText[@name="股票看板"]').click()
     # driver.find_element_by_xpath('//XCUIElementTypeButton[@name="最近买入"]').click()
     # driver.find_element_by_xpath(
@@ -58,6 +69,7 @@ def home(driver):
     except:
         print u'网络异常'
     driver.find_element_by_accessibility_id('backImg').click()
+    sleep(1)
     driver.find_element_by_accessibility_id('backImg').click()
     driver.find_element_by_xpath('//XCUIElementTypeStaticText[@name="股市内参"]').click()
     sleep(1)
@@ -87,6 +99,7 @@ def home(driver):
     sleep(2)
     driver.find_element_by_accessibility_id('backImg').click()
     driver.find_element_by_xpath('(//XCUIElementTypeButton[@name="市场快讯"])').click()
+    sleep(1)
     driver.find_element_by_xpath(
         '//XCUIElementTypeApplication[@name="览益股市"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[7]').click()
     sleep(2)

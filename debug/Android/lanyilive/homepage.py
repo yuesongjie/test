@@ -3,13 +3,13 @@ from time import sleep
 def home(driver):
     sleep(2)
     try:
-        driver.find_element_by_id('com.lanyi.live:id/btn_close').click()
-    except:
-        print u'未发现首页弹窗'
-    try:
         driver.find_element_by_id('com.lanyi.live:id/img_close').click()
     except:
         print u'未发现签到弹窗'
+    try:
+        driver.find_element_by_id('com.lanyi.live:id/btn_close').click()
+    except:
+        print u'未发现首页弹窗'
     sleep(3)
     cataarea = driver.find_element_by_id('com.lanyi.live:id/list_category')
     categorylists = cataarea.find_elements_by_class_name('android.widget.LinearLayout')
