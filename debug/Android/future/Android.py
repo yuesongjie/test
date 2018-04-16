@@ -3,7 +3,8 @@ from appium import webdriver
 from time import sleep
 from homepage import home
 from market import market
-
+from trade import trade
+from news import news
 desired_caps={'deviceName': 'Z',
               'noReset': True,
               'platformVersion': '5.1.1',
@@ -16,3 +17,5 @@ y = driver.get_window_size()['height']
 sleep(3)
 home(driver,x,y)
 market(driver)
+trade(driver)
+news(driver,x,y)
