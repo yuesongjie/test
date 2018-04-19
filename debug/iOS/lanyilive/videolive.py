@@ -2,8 +2,6 @@
 from appium import webdriver
 from time import sleep
 def live(driver):
-    x = driver.get_window_size()['width']
-    y = driver.get_window_size()['height']
     driver.find_element_by_xpath('//XCUIElementTypeButton[@name="视频解盘"]').click()
     sleep(3)
     driver.find_element_by_xpath('//XCUIElementTypeButton[@name="互动"]').click()

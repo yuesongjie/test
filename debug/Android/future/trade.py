@@ -7,7 +7,7 @@ def trade(driver):
     sleep(1)
     moneycanbeused = driver.find_element_by_id('com.lanyife.futures:id/can_use_fount_tv').get_attribute('name')
     sleep(1)
-    print u'当前总权益"' + ' ' + currentfund + ',' + u'可用资金:' + ' ' + moneycanbeused
+    print u'当前总权益:' + ' ' + currentfund + ',' + u'可用资金:' + ' ' + moneycanbeused
     driver.find_element_by_id('com.lanyife.futures:id/fund_detail_btn').click()
     sleep(2)
     currentfund_d = driver.find_element_by_id('com.lanyife.futures:id/current_fund_tv').get_attribute('name')
